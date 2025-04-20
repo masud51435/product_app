@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Product App GetX',
+      title: 'Product App with GetX',
       initialRoute: AppRoutes.productList,
       getPages: AppPages.pages,
     );
